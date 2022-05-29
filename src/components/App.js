@@ -15,10 +15,7 @@ function App() {
             city = {user.city}
             color = {user.color}
       />
-      <About bio = {user.bio}
-             linksGithub = {user.links.github}
-             linksLinkedin = {user.links.linkedin}
-      />
+      <About bio = {user.bio} />
     </div>
   );
 }
